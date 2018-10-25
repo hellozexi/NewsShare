@@ -1,0 +1,20 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - DB_PASSWORD=sdfewlrcxiv
+      - DB_DATABASE=story
+    ports:
+      - "9000:80"
+  db:
+    build:
+      context: ./db/
+      dockerfile: Dockerfile
+    environment:
+      - MYSQL_ROOT_PASSWORD=sdfewlrcxiv
+      - MYSQL_DATABASE=story
+    volumes:
+      - ./db/data/:/var/lib/mysql

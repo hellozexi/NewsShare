@@ -1,0 +1,50 @@
+
+Frontend:
+
+Backend:
+  ✔ models @done(18-09-26 02:41)
+    ✔ user @done(18-09-26 02:41)
+    ✔ article @done(18-09-26 02:41)
+    ✔ comment @done(18-09-26 02:41)
+  
+  ✔ deploy @done(18-09-26 02:41)
+    ✔ docker @done(18-09-25 01:18)
+      ✔ php @done(18-09-25 01:15)
+      ✔ mysql @done(18-09-25 01:15)
+
+    ✔ database @done(18-09-26 02:41)
+      ✔ tables schema @done(18-09-25 01:15)
+      ✔ php interface @done(18-09-26 02:40)
+
+Gradings:
+
+  User Management (20 Points):
+  ✔ A session is created when a user logs in (3 points) @done(18-09-26 02:38)
+  ✔ New users can register (3 points) @done(18-09-26 02:38)
+  ✔ Passwords are hashed, salted, and checked securely (3 points) @done(18-09-26 02:38)
+    Note: You will receive 0 points for this section if you use the == or === operators to compare password hashes, or if you use the crypt or md5 functions at any point.
+  ✔ Users can log out (3 points) @done(18-09-26 02:38)
+  ☐ A user can edit and delete his/her own stories and comments but cannot edit or delete the stories or comments of another user (8 points)
+  Story and Comment Management (20 Points):
+  ✔ Relational database is configured with correct data types and foreign keys (4 points) @done(18-09-26 02:38)
+  Note: To demonstrate the structure of your database, you should commit a 'single' text file containing the output of the SHOW CREATE TABLE command for all tables in your database, called tables.sql. This one file should contain the output for all of your tables.
+  ✔ Stories can be posted (3 points) @done(18-09-26 02:38)
+  ✔ A link can be associated with each story, and is stored in a separate database field from the story (3 points) @done(18-09-26 02:38)
+  ☐ Comments can be posted in association with a story (4 points)
+  ☐ Stories can be edited and deleted (3 points)
+  ☐ Comments can be edited and deleted (3 points)
+  Note: Although there are only 6 points allocated for editing/deleting in this section, there are 8 more points at stake in the User Management section that cannot be earned unless editing/deleting is implemented. Implementing editing but not deleting, or vice-versa, will result in earning half the points.
+  Best Practices (15 Points):
+  ✔ Code is well formatted and easy to read, with proper commenting (3 points) @done(18-09-26 02:40)
+  ✔ Safe from SQL Injection attacks (2 points) @done(18-09-26 03:01)
+  ☐ Site follows the FIEO philosophy (3 points)
+  ☐ All pages pass the W3C HTML and CSS validators (2 points)
+  ☐ CSRF tokens are passed when creating, editing, and deleting comments and stories (5 points)
+  Usability (5 Points):
+  ✔ Site is intuitive to use and navigate (4 points) @done(18-09-26 02:39)
+  ✔ Site is visually appealing (1 point) @done(18-09-26 02:39)
+  Creative Portion (15 Points) Make sure you have a README.md file in your group repo with the following:
+    ✔ Names and Student IDs of all the group members @done(18-09-26 02:58)
+    ✔ A link to your homepage of the site @done(18-09-26 02:56)
+    ☐ A brief description of what you did for your creative portion
+    ✔ Any additional login details needed for the TA @done(18-09-26 03:00)
